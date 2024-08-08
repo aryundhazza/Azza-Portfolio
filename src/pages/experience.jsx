@@ -7,7 +7,7 @@ import next from "../assets/photo/next.png";
 import tailwind from "../assets/photo/tailwind.png";
 import github from "../assets/photo/github.png";
 import boot from "../assets/photo/boot.png";
-import Tech from "../components/tech";
+import Kode from "../components/experi";
 
 const Experience = () => {
   const techStack = [
@@ -33,11 +33,7 @@ const Experience = () => {
         <p className="py-6">These are the technologies I've worked with</p>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center">
           {techStack.map(({ id, src, title, style }) => (
-            // <div key={id} className="shadow-md shadow-gray-600 rounded-lg py-2">
-            //   <img src={src} alt={title} className="w-20 mx-auto" />
-            //   <p className="mt-2">{title}</p>
-            // </div>
-            <Tech key={id} style={style} src={src} title={title} />
+            <Kode key={id} style={style} src={src} title={title} />
           ))}
         </div>
       </div>
