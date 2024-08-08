@@ -7,7 +7,7 @@ import next from "../assets/photo/next.png";
 import tailwind from "../assets/photo/tailwind.png";
 import github from "../assets/photo/github.png";
 import boot from "../assets/photo/boot.png";
-import Tech from "../components/Tech";
+import Tech from "../components/tech";
 
 const Experience = () => {
   const techStack = [
